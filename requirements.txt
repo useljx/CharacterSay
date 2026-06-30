@@ -1,0 +1,22 @@
+# CharacterSay — Character Dialogue Role-Playing System
+#
+# 依赖项 (Python ≥ 3.10)
+
+# === 核心 ===
+pydantic-settings>=2.0
+pyside6>=6.4
+qasync>=0.27
+
+# === 音频采集 ===
+soundcard>=0.4
+numpy>=1.24
+
+# === ASR (WebSocket) ===
+websockets>=13.0
+
+# === LLM (OpenAI-compatible API) ===
+openai>=1.0
+
+# === 可选（TTS 音频播放，未来使用） ===
+# sounddevice>=0.5
+# pyaudio>=0.2
